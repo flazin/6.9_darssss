@@ -1,16 +1,14 @@
-import classes from './App.module.css';
-import TextBox from './Components/Text/TextBox';
-import Form from './Components/Form/From';
+import Hero from './components/Hero'
+import Footer from './components/Footer'
+import './App.css';
 
-const App = () => {
-	return (
-		<main>
-			<div className={classes.container}>
-				<TextBox />
-				<Form />
-			</div>
-		</main>
-	);
+function App() {
+  return (
+    <div className="App">
+      <Hero />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
