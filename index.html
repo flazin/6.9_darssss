@@ -2,73 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Hari Ram J P" />
-    <title>AKMALJON REGISTER</title>
-    <meta
-      name="description"
-      content="This is a front-end coding challenge - Intro Component With Sign-up Form"
-    />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>AKMALJON REGISTER</title>
   </head>
   <body>
     <main>
-      <div class="form-container">
-        <form>
-          <label for="first-name">
-            <input
-              type="text"
-              id="first-name"
-              class="name"
-              placeholder="First Name"
-              autocomplete="off"
-              spellcheck="false"
-            />
-          </label>
-          <label for="last-name">
-            <input
-              type="text"
-              id="last-name"
-              class="name"
-              placeholder="Last Name"
-              autocomplete="off"
-              spellcheck="false"
-            />
-          </label>
-          <label for="email">
-            <input
-              type="email"
-              id="email"
-              placeholder="Email Address"
-              autocomplete="off"
-              spellcheck="false"
-            />
-          </label>
-          <label for="password">
-            <input
-              type="password"
-              id="password"
-              placeholder="Password"
-              autocomplete="off"
-              spellcheck="false"
-            />
-          </label>
-          <button class="cta" type="submit">SUBMIT</button>
+      <div class="signup">
+        <form action="#" class="signup__form">
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            aria-label="First Name"
+            placeholder="First Name"
+            required
+          />
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            aria-label="Last Name"
+            placeholder="Last Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            aria-label="Email Address"
+            placeholder="Email Address"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            aria-label="Password"
+            placeholder="Password"
+            required
+          />
+          <input
+            type="submit"
+            value="Claim your free trial"
+            aria-label="Submit"
+          />
         </form>
       </div>
     </main>
-    <div class="modal">
-      <div class="inner">
-        <p>Congratulations</p>
-        <p>You've taken the right step</p>
-      </div>
-    </div>
-    <script src="./js/scripts.js"></script>
   </body>
+  <script src="js/validation.js"></script>
 </html>
