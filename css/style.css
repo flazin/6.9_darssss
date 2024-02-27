@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 body {
-  background: url("../images/bg-intro-mobile.png"), #ff7a7a;
+  background: url("../images/bg-intro-mobile.png"), #000000;
   background-position: center;
   background-repeat: repeat;
   font-size: 1em;
@@ -8,7 +8,7 @@ body {
 }
 @media (min-width: 768px) {
   body {
-    background: url("../images/bg-intro-desktop.png"), #ff7a7a;
+    background: url("../images/bg-intro-desktop.png"), #000000;
     background-position: center;
     background-repeat: repeat;
   }
